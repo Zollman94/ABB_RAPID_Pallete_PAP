@@ -11,7 +11,7 @@ MODULE Module1
     VAR num nBoxDropInRoW:=0;
     VAR num nActRoW:=0;
     VAR num nActLayer:=0;
-    !Dimensions of box + space
+    !Dimensions of box + space between boxes
     CONST num nBoxSizeX:=300+30;
     CONST num nBoxSizeY:=300+30;
     CONST num nBoxSizeZ:=300+30;
@@ -20,7 +20,7 @@ MODULE Module1
     VAR num nActBoxXOff:=0;
     VAR num nActBoxYOff:=0;
     !Settings
-    CONST num nBoxInRoW:=2;
+    CONST num nBoxInRoW:=3;
     CONST num nRowsInLayer:=2;
 
     PROC main()
